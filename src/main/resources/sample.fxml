@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            AnchorPane.bottomAnchor="-1762.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-3242.0"
+            AnchorPane.topAnchor="10.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+>
+    <VBox>
+        <HBox>
+            <Button text="Add User"/>
+            <Button text="Get Users"/>
+            <Button text="Check in"/>
+            <Button text="Load"/>
+            <Button text="Save"/>
+        </HBox>
+        <Canvas height="2160.0" width="3840.0"/>
+    </VBox>
+</ScrollPane>

@@ -1,0 +1,98 @@
+<root class="ConsoleUI" objectId="1000">
+	<map class="map.Map" objectId="1001">
+		<places class="java.util.ArrayList">
+			<item class="map.Place" objectId="1002">
+				<name class="java.lang.String">Кинотеатр "Дружба"</name>
+				<type class="map.buildings.Polygon" objectId="1003">
+					<edges class="java.util.ArrayList">
+						<item class="map.buildings.Edge" objectId="1004">
+							<p1 class="map.buildings.Point" objectId="1005">
+								<x class="java.lang.Double">10.0</x>
+								<y class="java.lang.Double">10.0</y>
+							</p1>
+							<p2 class="map.buildings.Point" objectId="1006">
+								<x class="java.lang.Double">15.0</x>
+								<y class="java.lang.Double">15.0</y>
+							</p2>
+						</item>
+						<item class="map.buildings.Edge" objectId="1007">
+							<p1 objectId="1006"/>
+							<p2 class="map.buildings.Point" objectId="1008">
+								<x class="java.lang.Double">20.0</x>
+								<y class="java.lang.Double">10.0</y>
+							</p2>
+						</item>
+						<item class="map.buildings.Edge" objectId="1009">
+							<p1 objectId="1008"/>
+							<p2 objectId="1005"/>
+						</item>
+					</edges>
+				</type>
+			</item>
+			<item class="map.Place" objectId="1010">
+				<name class="java.lang.String">Парк "Динамо"</name>
+				<type class="map.buildings.Polygon" objectId="1011">
+					<edges class="java.util.ArrayList">
+						<item class="map.buildings.Edge" objectId="1012">
+							<p1 class="map.buildings.Point" objectId="1013">
+								<x class="java.lang.Double">5.0</x>
+								<y class="java.lang.Double">5.0</y>
+							</p1>
+							<p2 class="map.buildings.Point" objectId="1014">
+								<x class="java.lang.Double">15.0</x>
+								<y class="java.lang.Double">40.0</y>
+							</p2>
+						</item>
+						<item class="map.buildings.Edge" objectId="1015">
+							<p1 objectId="1014"/>
+							<p2 class="map.buildings.Point" objectId="1016">
+								<x class="java.lang.Double">40.0</x>
+								<y class="java.lang.Double">5.0</y>
+							</p2>
+						</item>
+						<item class="map.buildings.Edge" objectId="1017">
+							<p1 objectId="1016"/>
+							<p2 objectId="1013"/>
+						</item>
+					</edges>
+				</type>
+			</item>
+		</places>
+		<checkins class="java.util.ArrayList"/>
+	</map>
+	<users class="java.util.ArrayList">
+		<item class="social.User" objectId="1018">
+			<friends class="java.util.ArrayList"/>
+			<log class="java.util.ArrayList"/>
+			<notifications class="java.util.ArrayList"/>
+			<coordinates class="map.Coordinates" objectId="1019"/>
+			<name class="java.lang.String">Allan</name>
+			<id class="java.lang.Integer">668391007</id>
+		</item>
+	</users>
+	<randomNames class="java.util.ArrayList">
+		<item class="java.lang.String">[Jim</item>
+		<item class="java.lang.String">Allan</item>
+		<item class="java.lang.String">Kent</item>
+		<item class="java.lang.String">Logan</item>
+		<item class="java.lang.String">Paul</item>
+		<item class="java.lang.String">Maren</item>
+		<item class="java.lang.String">Klow]</item>
+	</randomNames>
+	<user1 class="social.User" objectId="1020">
+		<friends class="java.util.ArrayList"/>
+		<log class="java.util.ArrayList"/>
+		<notifications class="java.util.ArrayList"/>
+		<coordinates class="void">null</coordinates>
+		<name class="java.lang.String">Putin</name>
+		<id class="java.lang.Integer">2031796131</id>
+	</user1>
+	<user2 class="social.User" objectId="1021">
+		<friends class="java.util.ArrayList"/>
+		<log class="java.util.ArrayList"/>
+		<notifications class="java.util.ArrayList"/>
+		<coordinates class="void">null</coordinates>
+		<name class="java.lang.String">Medvedev</name>
+		<id class="java.lang.Integer">293263215</id>
+	</user2>
+</root>
